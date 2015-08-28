@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: silver;
+}
+
+#main-wrapper, #window-of-reels {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+#main-wrapper {
+  width: 448px;
+  top: 120px;
+  padding: 10px;
+  background: #333;
+}
+
+#window-of-reels {
+  width: 384px;
+  height: 216px;
+  overflow: hidden;
+  background: black;
+  border: 10px solid;
+  border-color: #999 #777 #999 #777;
+}
+
+#main-wrapper #window-of-reels canvas {
+  top: -432px;
+  position: relative;
+  background: white;
+}
+
+#play-button {
+  margin-top: 5px;
+}

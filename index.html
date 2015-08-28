@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+	<link type="text/css" rel="stylesheet" href="css/slot-machine.css" />
+</head>
+<body>
+	<div id="main-wrapper">
+		<div id="window-of-reels">
+			<canvas id="reel_0" width="72" height="648"></canvas>
+			<canvas id="reel_1" width="72" height="648"></canvas>
+			<canvas id="reel_2" width="72" height="648"></canvas>
+			<canvas id="reel_3" width="72" height="648"></canvas>
+			<canvas id="reel_4" width="72" height="648"></canvas>
+		</div>
+		<input type="button" value="GO!" id="play-button"></input>
+	</div>
+	<script type="text/javascript" src="js/slot-machine.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			slotMachine.init();
+		}
+	</script>
+</body>
+</html>
